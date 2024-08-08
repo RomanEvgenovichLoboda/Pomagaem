@@ -2436,7 +2436,7 @@ body {
   align-items: center;
   justify-content: center;
   --tw-bg-opacity: 1;
-  background-color: rgb(229 229 229 / var(--tw-bg-opacity));
+  background-color: rgb(250 250 250 / var(--tw-bg-opacity));
   .header {
     display: flex;
   }
@@ -2901,13 +2901,10 @@ body {
     display: flex;
   }
   .content {
-    height: 24rem;
-  }
-  .content {
     width: 100vw;
   }
   .content {
-    flex-direction: row;
+    flex-direction: column;
   }
   .content {
     align-items: center;
@@ -2915,9 +2912,145 @@ body {
   .content {
     justify-content: space-around;
   }
-  .content {
-    --tw-bg-opacity: 1;
-    background-color: rgb(245 158 11 / var(--tw-bg-opacity));
+  .content{
+    .topContainer {
+      display: flex;
+    }
+    .topContainer {
+      height: 24rem;
+    }
+    .topContainer {
+      width: 100%;
+    }
+    .topContainer {
+      flex-direction: column;
+    }
+    .topContainer {
+      align-items: center;
+    }
+    .topContainer {
+      justify-content: center;
+    }
+    .topContainer {
+      gap: 1rem;
+    }
+    .topContainer {
+      background-image: url('../Images/breadcrumbs.jpg');
+    }
+    .topContainer {
+      background-position: center;
+    }
+    @media (min-width: 768px) {
+      .topContainer {
+        background-position: center;
+      }
+    }
+    @media (min-width: 1024px) {
+      .topContainer {
+        background-position: top;
+      }
+    }
+    .topContainer{
+      h1 {
+        font-size: 3rem;
+        line-height: 1;
+      }
+      h1 {
+        --tw-text-opacity: 1;
+        color: rgb(250 250 250 / var(--tw-text-opacity));
+      }
+      p {
+        cursor: pointer;
+      }
+      p {
+        --tw-text-opacity: 1;
+        color: rgb(250 250 250 / var(--tw-text-opacity));
+      }
+      p {
+        transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+        transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+        transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 150ms;
+      }
+      p {
+        transition-delay: 150ms;
+      }
+      p {
+        transition-duration: 150ms;
+      }
+      p:hover {
+        --tw-text-opacity: 1;
+        color: rgb(212 212 212 / var(--tw-text-opacity));
+      }
+    }
+    .hthelpContainer {
+      width: 100%;
+    }
+    @media (min-width: 768px) {
+      .hthelpContainer {
+        width: 83.333333%;
+      }
+    }
+    @media (min-width: 1024px) {
+      .hthelpContainer {
+        width: 66.666667%;
+      }
+    }
+    .hthelpContainer{
+      h4 {
+        margin-bottom: 1.25rem;
+      }
+      h4 {
+        margin-top: 1.25rem;
+      }
+      h4 {
+        font-size: 3rem;
+        line-height: 1;
+      }
+      h4 {
+        font-weight: 500;
+      }
+      h4 {
+        --tw-text-opacity: 1;
+        color: rgb(55 65 81 / var(--tw-text-opacity));
+      }
+      ul {
+        list-style-position: inside;
+      }
+      ul {
+        list-style-type: disc;
+      }
+      ul {
+        font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      }
+      ul {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+      }
+      ul{
+        h1 {
+          margin-bottom: 1rem;
+        }
+        h1 {
+          --tw-text-opacity: 1;
+          color: rgb(163 163 163 / var(--tw-text-opacity));
+        }
+        li {
+          margin-bottom: 1rem;
+        }
+        li {
+          --tw-text-opacity: 1;
+          color: rgb(56 189 248 / var(--tw-text-opacity));
+        }
+        li{
+          a {
+            --tw-text-opacity: 1;
+            color: rgb(115 115 115 / var(--tw-text-opacity));
+          }
+        }
+      }
+    }
   }
   .preFooter {
     bottom: 2.5rem;

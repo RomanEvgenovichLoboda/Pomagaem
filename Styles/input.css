@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    @apply flex flex-col items-center justify-center bg-neutral-200;
+    @apply flex flex-col items-center justify-center bg-neutral-50;
 
 
     .header {
@@ -73,8 +73,43 @@ body {
 
     }
     .content{
-        @apply w-screen h-96 flex flex-row items-center justify-around bg-amber-500;
+        @apply w-screen flex flex-col items-center justify-around;
+        .topContainer{
+            @apply  bg-[url('../Images/breadcrumbs.jpg')] lg:bg-top md:bg-center bg-center w-full h-96 flex flex-col items-center justify-center gap-4;
+            h1{
+                @apply text-5xl text-neutral-50;
+            }
+            p{
+                @apply text-neutral-50 hover:text-neutral-300 transition delay-150 duration-150 cursor-pointer;
+            }
+        }
+        .hthelpContainer{
+            @apply lg:w-4/6 md:w-5/6 w-full;
+            h4{
+                @apply text-5xl font-medium  text-gray-700  mb-5 mt-5;
+            }
+            ul{
+                @apply list-disc list-inside font-sans text-lg;
+                h1{
+                    @apply text-neutral-400 mb-4;
+                }
+                li{
+                    @apply text-sky-400 mb-4;
+                    a{
+                        @apply text-neutral-500;
+                    }
+                }
+            }
+        }
     }
+
+
+
+
+
+
+
+
     .preFooter{
         @apply w-screen bg-gray-600 flex flex-wrap flex-row items-start lg:justify-center md:justify-center sm:justify-start bottom-10 p-16 md:gap-14 lg:gap-28;
         .fLogo{
