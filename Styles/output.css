@@ -2564,6 +2564,9 @@ body {
   }
   .main {
     .logo {
+      width: 18rem;
+    }
+    .logo {
       transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
       transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
       transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
@@ -2984,20 +2987,115 @@ body {
         color: rgb(212 212 212 / var(--tw-text-opacity));
       }
     }
-    .hthelpContainer {
+    .aboutContainer {
       width: 100%;
     }
+    .aboutContainer {
+      font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
     @media (min-width: 768px) {
-      .hthelpContainer {
+      .aboutContainer {
         width: 83.333333%;
       }
     }
     @media (min-width: 1024px) {
-      .hthelpContainer {
+      .aboutContainer {
         width: 66.666667%;
       }
     }
-    .hthelpContainer{
+    .aboutContainer{
+      .underline_div {
+        margin-top: 4rem;
+      }
+      .underline_div {
+        width: 100%;
+      }
+      .underline_div {
+        border-top-width: 2px;
+        border-bottom-width: 2px;
+      }
+      .underline_div {
+        border-style: solid;
+      }
+      .underline_div {
+        border-top-color: transparent;
+      }
+      .grid_div {
+        margin-top: 4rem;
+      }
+      .grid_div {
+        display: grid;
+      }
+      .grid_div {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+      .grid_div {
+        grid-template-rows: repeat(2, minmax(0, 1fr));
+      }
+      .grid_div{
+        .firstRow {
+          grid-column: span 2 / span 2;
+        }
+        .secondRow {
+          grid-column: span 3 / span 3;
+        }
+        @media (min-width: 1024px) {
+          .secondRow {
+            grid-column: span 2 / span 2;
+          }
+        }
+        .secondColl {
+          grid-row: span 1 / span 1;
+        }
+        @media (min-width: 1024px) {
+          .secondColl {
+            grid-row: span 2 / span 2;
+          }
+        }
+      }
+      .grigDiv2 {
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+      }
+      .grigDiv2 {
+        display: grid;
+      }
+      .grigDiv2 {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+      }
+      .grigDiv2 {
+        gap: 0.75rem;
+      }
+      @media (min-width: 1024px) {
+        .grigDiv2 {
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+      }
+      h1 {
+        margin-bottom: 1rem;
+      }
+      h1 {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+      }
+      h1 {
+        --tw-text-opacity: 1;
+        color: rgb(163 163 163 / var(--tw-text-opacity));
+      }
+      h2 {
+        margin-bottom: 1.25rem;
+      }
+      h2 {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+      }
+      h2 {
+        font-weight: 500;
+      }
+      h2 {
+        --tw-text-opacity: 1;
+        color: rgb(55 65 81 / var(--tw-text-opacity));
+      }
       h4 {
         margin-bottom: 1.25rem;
       }
@@ -3015,6 +3113,10 @@ body {
         --tw-text-opacity: 1;
         color: rgb(55 65 81 / var(--tw-text-opacity));
       }
+      a {
+        --tw-text-opacity: 1;
+        color: rgb(115 115 115 / var(--tw-text-opacity));
+      }
       ul {
         list-style-position: inside;
       }
@@ -3022,20 +3124,10 @@ body {
         list-style-type: disc;
       }
       ul {
-        font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-      }
-      ul {
         font-size: 1.125rem;
         line-height: 1.75rem;
       }
       ul{
-        h1 {
-          margin-bottom: 1rem;
-        }
-        h1 {
-          --tw-text-opacity: 1;
-          color: rgb(163 163 163 / var(--tw-text-opacity));
-        }
         li {
           margin-bottom: 1rem;
         }
@@ -3043,11 +3135,25 @@ body {
           --tw-text-opacity: 1;
           color: rgb(56 189 248 / var(--tw-text-opacity));
         }
-        li{
-          a {
-            --tw-text-opacity: 1;
-            color: rgb(115 115 115 / var(--tw-text-opacity));
-          }
+      }
+      .centrTextDiv {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      .centrTextDiv {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+      }
+      @media (min-width: 768px) {
+        .centrTextDiv {
+          padding-left: 0px;
+          padding-right: 0px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .centrTextDiv {
+          padding-left: 13rem;
+          padding-right: 13rem;
         }
       }
     }
