@@ -30,5 +30,19 @@ document.addEventListener('DOMContentLoaded', function (e) {
                 menu.classList.add('menu-hidden');
             }
         })
-    })
+    });
+    const menuAbsolute = document.querySelector('.menuAbsolute')
+    const openMenu = document.getElementById('openMenu');
+    openMenu.addEventListener('click', e => {
+        console.log('openMenu');
+        menuAbsolute.classList.remove('menu-hidden');
+    });
+
+    const closeMenu = document.getElementById('closeMenu')
+    closeMenu.addEventListener('click',(e) => {
+        console.log('closeMenu');
+        menuAbsolute.classList.add('menu-hidden')
+    });
+    
+    
 });
